@@ -5,13 +5,67 @@ body {
 img {
   width: 100px;
   height: 100px;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  flex-basis: auto;
+  align-self: center;
 }
 
 .title {
   font-size: 36px;
   font-weight: 900;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-bottom: 32px;
 }
 
+.flex1 {
+  display: flex;
+  width: 200px;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.flex2 {
+  display: flex;
+  width: 200px;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.flex3 {
+  display: flex;
+  width: 200px;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.flex4 {
+  display: flex;
+  width: 200px;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.text {
+  display: flex;
+  text-align: center;
+  padding-top: 5px;
+
+}
 /* do not edit this footer */
 .footer {
   position: fixed;
